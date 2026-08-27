@@ -1,0 +1,31 @@
+<svg width="300" height="340" viewBox="0 0 300 340" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="340" fill="none"/>
+
+    <defs>
+      <linearGradient id="boxg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#F15A22"/><stop offset="100%" stop-color="#17307E"/>
+      </linearGradient>
+    </defs>
+    <rect x="40" y="30" width="220" height="290" rx="14" fill="#FFFFFF" stroke="#E4E7F2" stroke-width="2"/>
+    <rect x="40" y="30" width="220" height="70" rx="14" fill="#0F1F5C"/>
+    <rect x="40" y="86" width="220" height="14" fill="#0F1F5C"/>
+    <text x="60" y="72" font-family="Manrope" font-weight="800" font-size="15" fill="#FFFFFF">SAI◈NICA</text>
+    <rect x="40" y="150" width="220" height="90" fill="url(#boxg)"/>
+    <text x="60" y="200" font-family="Manrope" font-weight="800" font-size="24" fill="#FFFFFF">DETOX</text>
+    <text x="60" y="226" font-family="Manrope" font-weight="800" font-size="20" fill="#FFFFFF">D3</text>
+    <text x="60" y="128" font-family="IBM Plex Mono" font-size="10.5" fill="#17307E">Cholecalciferol 60000 IU</text>
+    <rect x="40" y="260" width="220" height="60" fill="#FFFFFF"/>
+    <circle cx="220" cy="290" r="16" fill="#F15A22" opacity="0.25"/>
+    
+    <g transform="translate(220,290) rotate(20)">
+      <clipPath id="cap15109"><rect x="-13.0" y="-6.0" width="26" height="12" rx="6.0"/></clipPath>
+      <g clip-path="url(#cap15109)">
+        <rect x="-13.0" y="-6.0" width="13.0" height="12" fill="#F15A22"/>
+        <rect x="0" y="-6.0" width="13.0" height="12" fill="#FFFFFF"/>
+        <rect x="-1.1" y="-6.0" width="2.2" height="12" fill="white" opacity="0.55"/>
+      </g>
+      <rect x="-13.0" y="-6.0" width="26" height="12" rx="6.0" fill="none" stroke="rgba(10,22,66,0.08)" stroke-width="1.5"/>
+    </g>
+    <rect x="40" y="30" width="220" height="290" rx="14" fill="none" stroke="#E4E7F2" stroke-width="2"/>
+    
+</svg>

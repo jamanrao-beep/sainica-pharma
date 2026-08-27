@@ -1,0 +1,11 @@
+<svg width="220" height="52" viewBox="0 0 220 52" xmlns="http://www.w3.org/2000/svg">
+<g font-family="Manrope, sans-serif" font-weight="800">
+  <text x="0" y="30" font-size="26" fill="#F15A22">SAI</text>
+  <g transform="translate(60,6)">
+    <circle cx="10" cy="10" r="9" fill="#12A594"/>
+    <path d="M10 15 C4 11, 4 4, 10 7 C16 4, 16 11, 10 15 Z" fill="#FFFFFF"/>
+  </g>
+  <text x="83" y="30" font-size="26" fill="#0F1F5C">NICA</text>
+  <text x="0" y="44" font-size="9.5" letter-spacing="2.5" fill="#17307E">HEALTHCARE</text>
+</g>
+</svg>
