@@ -11,33 +11,35 @@ export default function EnquiryPage() {
       <Navbar />
 
       <section className="section">
-        <div className="container split">
+        <div className="container split split-form">
           <div>
             <div className="eyebrow">Enquire Now</div>
             <h1 className="h-xl">We are here to<br />help you.</h1>
             <p className="lede mt-16">For product enquiries or any other information, feel free to reach us.</p>
 
-            <div className="grid-3 mt-48" style={{ gap: 16 }}>
-              <div className="contact-card">
-                <div className="cc-icon">
-                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3.5h3l1.5 4-2 1.5a13 13 0 0 0 6.5 6.5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2C10.8 20 4 13.2 4 5.7A2 2 0 0 1 6 3.5z"/></svg>
+            <div className="grid-2 mt-48" style={{ gap: 24 }}>
+              <div className="contact-card" style={{ padding: "24px 20px" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12 }}>
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3.5h3l1.5 4-2 1.5a13 13 0 0 0 6.5 6.5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2C10.8 20 4 13.2 4 5.7A2 2 0 0 1 6 3.5z"/></svg>
                 </div>
                 <h4>Phone</h4>
-                <p><a href="tel:+917906605626">+91 79066 05626</a></p>
+                <p><a href="tel:+917906605626" style={{ wordBreak: "break-word" }}>+91 79066 05626</a></p>
               </div>
-              <div className="contact-card">
-                <div className="cc-icon">
-                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 6.5l8 6.5 8-6.5"/></svg>
+              <div className="contact-card" style={{ padding: "24px 20px" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12 }}>
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 6.5l8 6.5 8-6.5"/></svg>
                 </div>
                 <h4>Email</h4>
-                <p><a href="mailto:sainicahealthcare@gmail.com">sainicahealthcare@gmail.com</a></p>
+                <p><a href="mailto:sainicahealthcare@gmail.com" style={{ wordBreak: "break-word" }}>sainicahealthcare@gmail.com</a></p>
               </div>
-              <div className="contact-card">
-                <div className="cc-icon">
-                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 4 5.4 4 8.5s-1.4 6.1-4 8.5c-2.6-2.4-4-5.4-4-8.5s1.4-6.1 4-8.5z"/></svg>
+              <div className="contact-card" style={{ gridColumn: "1 / -1", padding: "24px 20px", display: "flex", alignItems: "center", gap: 16, textAlign: "left" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, margin: 0, flex: "none" }}>
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 4 5.4 4 8.5s-1.4 6.1-4 8.5c-2.6-2.4-4-5.4-4-8.5s1.4-6.1 4-8.5z"/></svg>
                 </div>
-                <h4>Website</h4>
-                <p><a href="#">www.sainicahealthcare.com</a></p>
+                <div>
+                  <h4>Website</h4>
+                  <p><a href="#" style={{ wordBreak: "break-word" }}>www.sainicahealthcare.com</a></p>
+                </div>
               </div>
             </div>
           </div>
