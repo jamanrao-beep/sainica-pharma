@@ -24,7 +24,6 @@ export const metadata: Metadata = {
   title: "Sainica Healthcare — Quality Pharmaceutical Products",
   description:
     "Sainica Healthcare — quality pharmaceutical products for gastroenterology, cardiology and general medicine. Preserving Wellness Across India.",
-  icons: { icon: "/img/mark.svg" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
