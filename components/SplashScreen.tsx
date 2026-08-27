@@ -67,7 +67,7 @@ export default function SplashScreen({ onComplete }: { onComplete: () => void })
             muted
             playsInline
             onEnded={handleTransitionOut}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </motion.div>
       </motion.div>
