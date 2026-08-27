@@ -94,6 +94,130 @@ const productsData: Record<string, {
     dosage: "One tablet weekly or as directed by physician.",
     safety: "Avoid exceeding recommended dose. Monitor serum calcium levels.",
   },
+  "alark-p": {
+    name: "ALARK-P",
+    subtitle: "Aceclofenac 100 mg + Paracetamol 325 mg",
+    tagline: "This combination is used for pain and inflammation and is commonly indicated for acute painful conditions in adults.",
+    img: "/img/maxirise-gold.svg",
+    benefits: [
+      "Effective pain relief: Helps relieve mild to moderate acute pain.",
+      "Reduces inflammation: Aceclofenac is an NSAID that helps reduce inflammation, swelling, and inflammatory pain.",
+      "Helps reduce fever: Paracetamol provides analgesic and antipyretic effects.",
+      "Useful in musculoskeletal pain: May be prescribed for conditions involving joint, muscle, back, or other musculoskeletal pain.",
+      "Useful for dental and other acute painful conditions: The combination is used for various acute painful conditions when clinically appropriate."
+    ],
+    composition: ["Aceclofenac 100 mg", "Paracetamol 325 mg"],
+    packing: "10 x 10 Tablets",
+    overview: "ALARK-P is an effective analgesic and anti-inflammatory combination designed to provide comprehensive relief from acute pain and inflammation in adults.",
+    overviewChecks: ["Potent analgesic action", "Effective anti-inflammatory properties", "Reduces fever", "Fast onset of action"],
+    indications: "Acute painful conditions, musculoskeletal pain, dental pain, and inflammation.",
+    benefitsTab: "Provides effective, dual-action pain relief.",
+    dosage: "As directed by a registered medical practitioner.",
+    safety: "Do not exceed recommended dosage. Avoid in cases of known NSAID hypersensitivity."
+  },
+  "detox-500": {
+    name: "DETOX 500",
+    subtitle: "Cholecalciferol 60,000 IU (Vitamin D3) Capsules",
+    tagline: "High-potency Vitamin D3 formula that supports calcium absorption, bone health, immunity and muscle function.",
+    img: "/img/esolark-dsr.svg",
+    benefits: [
+      "Helps correct Vitamin D deficiency when clinically indicated",
+      "Supports normal muscle function",
+      "Supports calcium and phosphorus metabolism",
+      "Supports normal immune function",
+      "Supports healthy bones and teeth",
+      "Helps maintain adequate Vitamin D levels"
+    ],
+    composition: ["Cholecalciferol 60,000 IU"],
+    packing: "10 x 1x4 Capsules",
+    overview: "DETOX 500 provides a high-potency dose of Vitamin D3 to rapidly correct deficiencies and support overall skeletal and immune health.",
+    overviewChecks: ["High-potency formula", "Supports bone health", "Enhances immunity", "Promotes muscle function"],
+    indications: "Vitamin D deficiency, osteomalacia, rickets, and as an adjunct in osteoporosis treatment.",
+    benefitsTab: "Ensures optimal calcium absorption and immune system function.",
+    dosage: "As directed by a healthcare professional.",
+    safety: "Caution: High dose Vitamin D3 preparation. Prolonged or excessive intake may lead to elevated blood calcium levels."
+  },
+  "evabite-lc": {
+    name: "EVABITE LC",
+    subtitle: "Levocetirizine Dihydrochloride 5 mg + Montelukast Sodium 10 mg",
+    tagline: "Effective combination for relief from allergic symptoms and associated conditions.",
+    img: "/img/maxirise-gold.svg",
+    benefits: [
+      "Relieves sneezing, runny nose & itchy eyes",
+      "Improves breathing in allergic conditions",
+      "Reduces allergic inflammation",
+      "Well tolerated",
+      "Helps in allergic rhinitis and urticaria"
+    ],
+    composition: ["Levocetirizine Dihydrochloride 5 mg", "Montelukast Sodium 10 mg"],
+    packing: "10 x 10 Tablets",
+    overview: "EVABITE LC combines a potent antihistamine with a leukotriene receptor antagonist to provide comprehensive relief from allergic rhinitis and asthma symptoms.",
+    overviewChecks: ["Non-drowsy relief", "Reduces allergic inflammation", "Improves breathing", "Once daily dosage"],
+    indications: "Allergic rhinitis, chronic idiopathic urticaria, and asthma prophylaxis.",
+    benefitsTab: "Effectively controls allergic cascades for long-lasting relief.",
+    dosage: "One tablet daily or as directed by a healthcare professional.",
+    safety: "Well tolerated. Discontinue use and consult a doctor if severe side effects occur."
+  },
+  "panbite-40": {
+    name: "PANBITE 40",
+    subtitle: "Pantoprazole 40 mg (Enteric Coated)",
+    tagline: "Pantoprazole is used for the treatment of GERD, acid reflux and other acid-related conditions.",
+    img: "/img/esolark-dsr.svg",
+    benefits: [
+      "Reduces excess stomach acid",
+      "Heals erosive esophagitis",
+      "Relieves heartburn and acid reflux",
+      "Well tolerated with proven safety"
+    ],
+    composition: ["Pantoprazole (As enteric coated) 40 mg"],
+    packing: "10 x 10 Tablets",
+    overview: "PANBITE 40 is a trusted Proton Pump Inhibitor (PPI) that effectively reduces gastric acid secretion for the treatment of acid-related disorders.",
+    overviewChecks: ["Effective acid suppression", "Heals erosive damage", "Relieves heartburn fast", "Proven safety profile"],
+    indications: "Gastroesophageal reflux disease (GERD), erosive esophagitis, Zollinger-Ellison syndrome.",
+    benefitsTab: "Provides sustained reduction of gastric acid for healing and symptom relief.",
+    dosage: "As directed by a registered medical practitioner.",
+    safety: "Generally well tolerated. Long-term use may require monitoring of bone mineral density and B12 levels."
+  },
+  "rifabite-400": {
+    name: "RIFABITE 400",
+    subtitle: "Rifaximin 400 mg",
+    tagline: "Rifaximin 400 mg is a non-absorbable antibiotic used in the treatment of intestinal infections due to susceptible organisms.",
+    img: "/img/maxirise-gold.svg",
+    benefits: [
+      "Effective in acute diarrhea",
+      "Well tolerated",
+      "Reduces recurrence of HE (Hepatic Encephalopathy)",
+      "Non-absorbable antibiotic"
+    ],
+    composition: ["Rifaximin 400 mg"],
+    packing: "10 x 10 Tablets",
+    overview: "RIFABITE 400 provides targeted antibiotic action in the gastrointestinal tract without systemic absorption, ensuring high local efficacy and safety.",
+    overviewChecks: ["Gut-specific action", "Non-absorbable", "High safety profile", "Effective against susceptible enteropathogens"],
+    indications: "Traveler's diarrhea, hepatic encephalopathy, and irritable bowel syndrome with diarrhea (IBS-D).",
+    benefitsTab: "Effectively eradicates gut pathogens while minimizing systemic side effects.",
+    dosage: "As directed by a healthcare professional.",
+    safety: "Safe for indicated GI conditions. Not effective for systemic infections."
+  },
+  "pirara-plus": {
+    name: "PIRARA PLUS",
+    subtitle: "Paracetamol 500 mg + Chlorpheniramine Maleate 2 mg",
+    tagline: "Combination for relief from fever, pain and allergic symptoms.",
+    img: "/img/esolark-dsr.svg",
+    benefits: [
+      "Relieves fever and pain",
+      "Helps reduce allergic symptoms",
+      "Relieves sneezing and runny nose",
+      "Well tolerated"
+    ],
+    composition: ["Paracetamol 500 mg", "Chlorpheniramine Maleate 2 mg"],
+    packing: "10 x 10 Tablets",
+    overview: "PIRARA PLUS offers a synergistic combination of an analgesic/antipyretic with an antihistamine, providing rapid relief from cold, fever, and flu-like symptoms.",
+    overviewChecks: ["Reduces fever", "Alleviates pain", "Relieves allergy symptoms", "Fast-acting relief"],
+    indications: "Common cold, allergic rhinitis, fever, and mild to moderate pain.",
+    benefitsTab: "Provides comprehensive symptom relief for cold and allergies.",
+    dosage: "As directed by a registered medical practitioner.",
+    safety: "Avoid concurrent use with other paracetamol-containing products to prevent overdose. May cause drowsiness."
+  }
 };
 
 const allSlugs = Object.keys(productsData);

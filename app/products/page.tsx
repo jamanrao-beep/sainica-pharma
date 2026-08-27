@@ -13,10 +13,16 @@ const categories = [
 ];
 
 const products = [
-  { slug: "esolark-dsr", name: "ESOLARK DSR", desc: "Esomeprazole 40mg EC+ Domperidone 10mg (IR) + Domperidone 20mg (SR)", img: "/img/esolark-dsr.svg" },
-  { slug: "maxirise-gold", name: "MAXIRISE GOLD", desc: "Multivitamin, Multimineral with Antioxidant Capsules", img: "/img/maxirise-gold.svg" },
-  { slug: "hemtor", name: "HEMTOR", desc: "Iron, Folic Acid & Zinc Suspension", img: "/img/hemtor.svg" },
+  { slug: "alark-p", name: "ALARK-P", desc: "Aceclofenac 100 mg + Paracetamol 325 mg", img: "/img/maxirise-gold.svg" },
+  { slug: "detox-500", name: "DETOX 500", desc: "Cholecalciferol 60,000 IU (Vitamin D3) Capsules", img: "/img/esolark-dsr.svg" },
   { slug: "detox-d3", name: "DETOX D3", desc: "Cholecalciferol 60000 IU Chewable Tablet", img: "/img/detox-d3.svg" },
+  { slug: "esolark-dsr", name: "ESOLARK-DSR", desc: "Esomeprazole 40mg EC+ Domperidone 10mg (IR) + Domperidone 20mg (SR)", img: "/img/esolark-dsr.svg" },
+  { slug: "evabite-lc", name: "EVABITE LC", desc: "Levocetirizine Dihydrochloride 5 mg + Montelukast Sodium 10 mg", img: "/img/maxirise-gold.svg" },
+  { slug: "panbite-40", name: "PANBITE 40", desc: "Pantoprazole 40 mg (Enteric Coated)", img: "/img/esolark-dsr.svg" },
+  { slug: "rifabite-400", name: "RIFABITE 400", desc: "Rifaximin 400 mg", img: "/img/maxirise-gold.svg" },
+  { slug: "hemtor", name: "HEMTOR", desc: "Iron, Folic Acid & Zinc Suspension", img: "/img/hemtor.svg" },
+  { slug: "pirara-plus", name: "PIRARA PLUS", desc: "Paracetamol 500 mg + Chlorpheniramine Maleate 2 mg", img: "/img/esolark-dsr.svg" },
+  { slug: "maxirise-gold", name: "MAXIRISE GOLD", desc: "Multivitamin, Multimineral with Antioxidant Capsules", img: "/img/maxirise-gold.svg" },
 ];
 
 export default function ProductsPage() {
@@ -35,7 +41,7 @@ export default function ProductsPage() {
           </div>
           <div className="split-media frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/products-hero.svg" alt="Product capsule cluster" />
+            <img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Products capsules and medicines" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </section>
