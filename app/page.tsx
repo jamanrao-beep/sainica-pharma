@@ -109,7 +109,7 @@ export default function Home() {
           <div className="split-media">
             <div className="frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Esolark DSR digestive relief" style={{ width: "100%", height: "100%", objectFit: "cover", aspectRatio: "4/3" }} />
+              <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Esolark DSR digestive relief" style={{ width: "100%", height: "100%", objectFit: "cover", aspectRatio: "4/3" }} />
             </div>
           </div>
         </div>
