@@ -31,7 +31,7 @@ export default function ResourcesPage() {
           </div>
           <div className="split-media frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Healthcare medical resources" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Healthcare medical resources" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </section>

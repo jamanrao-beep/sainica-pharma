@@ -20,7 +20,7 @@ export default function TherapeuticAreasPage() {
           </div>
           <div className="split-media frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Healthcare doctors stethoscope" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="https://images.unsplash.com/photo-1584982751601-97d8cb0f6669?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Healthcare doctors stethoscope" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </section>

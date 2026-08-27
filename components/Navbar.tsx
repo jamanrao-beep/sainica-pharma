@@ -55,12 +55,16 @@ export default function Navbar() {
           <Link
             className="btn btn-primary btn-sm nav-cta-mobile"
             href="/enquiry"
-            style={{ marginTop: 20 }}
             onClick={() => setMenuOpen(false)}
           >
             Enquiry Now
           </Link>
         </div>
+        {/* Backdrop overlay for mobile menu */}
+        <div 
+          className={`nav-backdrop${menuOpen ? " open" : ""}`}
+          onClick={() => setMenuOpen(false)}
+        ></div>
         <div className="nav-right">
           <Link className="btn btn-primary btn-sm nav-cta-desktop" href="/enquiry">
             Enquiry Now
