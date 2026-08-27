@@ -107,7 +107,9 @@ button{font-family:inherit;cursor:pointer;}
 .topbar .container{display:flex;justify-content:space-between;align-items:center;padding-top:8px;padding-bottom:8px;flex-wrap:wrap;gap:6px;}
 .topbar a{color:#cdd6ff;}
 .topbar .tb-item{display:flex;align-items:center;gap:6px;}
-
+@media (max-width: 900px) {
+  .topbar { display: none; }
+}
 .nav-container { position: sticky; top: 0; z-index: 50; padding: 0; transition: padding 0.3s ease, top 0.3s ease; }
 .nav-container.scrolled { top: 16px; padding: 0 20px; }
 .navwrap{background:#fff;border-bottom:1px solid var(--line);transition:all .3s ease;}
