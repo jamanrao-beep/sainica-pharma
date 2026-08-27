@@ -32,14 +32,12 @@ export default function EnquiryPage() {
                 <h4>Email</h4>
                 <p><a href="mailto:sainicahealthcare@gmail.com" style={{ wordBreak: "break-word" }}>sainicahealthcare@gmail.com</a></p>
               </div>
-              <div className="contact-card" style={{ gridColumn: "1 / -1", padding: "24px 20px", display: "flex", alignItems: "center", gap: 16, textAlign: "left" }}>
-                <div className="cc-icon" style={{ width: 48, height: 48, margin: 0, flex: "none" }}>
+              <div className="contact-card" style={{ gridColumn: "1 / -1", padding: "24px 20px" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12, marginLeft: "auto", marginRight: "auto" }}>
                   <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 4 5.4 4 8.5s-1.4 6.1-4 8.5c-2.6-2.4-4-5.4-4-8.5s1.4-6.1 4-8.5z"/></svg>
                 </div>
-                <div>
-                  <h4>Website</h4>
-                  <p><a href="#" style={{ wordBreak: "break-word" }}>www.sainicahealthcare.com</a></p>
-                </div>
+                <h4>Website</h4>
+                <p><a href="#" style={{ wordBreak: "break-word" }}>www.sainicahealthcare.com</a></p>
               </div>
             </div>
           </div>
