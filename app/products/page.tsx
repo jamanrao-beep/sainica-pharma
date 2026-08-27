@@ -81,9 +81,6 @@ export default function ProductsPage() {
               </div>
             ))}
           </div>
-          <div className="center mt-48">
-            <Link href="/products" className="btn btn-primary">View All Products</Link>
-          </div>
         </div>
       </section>
 
