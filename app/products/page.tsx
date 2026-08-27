@@ -66,7 +66,7 @@ export default function ProductsPage() {
             <div className="eyebrow" style={{ justifyContent: "center" }}>Featured Products</div>
             <h2 className="h-lg">Our Leading Formulations</h2>
           </div>
-          <div className="grid-4">
+          <div className="product-grid">
             {products.map((p) => (
               <div key={p.slug} className="product-card">
                 <div className="pimg">
@@ -76,7 +76,7 @@ export default function ProductsPage() {
                 <div className="pbody">
                   <h4>{p.name}</h4>
                   <p>{p.desc}</p>
-                  <Link href={`/products/${p.slug}`} className="btn btn-ghost-orange btn-sm btn-block">View Details</Link>
+                  <Link href={`/products/${p.slug}`} className="btn btn-ghost-orange btn-sm btn-block mt-auto">View Details</Link>
                 </div>
               </div>
             ))}
