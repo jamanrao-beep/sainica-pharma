@@ -21,7 +21,7 @@ export default function AboutPage() {
           </div>
           <div className="split-media frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/about-hero.svg" alt="Sainica Healthcare laboratory" />
+            <img src="https://images.unsplash.com/photo-1532187863486-abf9db61b7f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica About laboratory research" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </section>

@@ -54,9 +54,9 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="hero-art">
+          <div className="hero-art frame">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/home-hero.svg" alt="Esolark DSR digestive relief illustration" />
+            <img src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sainica Healthcare advanced medicine" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
         </div>
       </section>
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="split-media">
             <div className="frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/esolark-dsr.svg" alt="Esolark DSR pack" />
+              <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Esolark DSR digestive relief" style={{ width: "100%", height: "100%", objectFit: "cover", aspectRatio: "4/3" }} />
             </div>
           </div>
         </div>
