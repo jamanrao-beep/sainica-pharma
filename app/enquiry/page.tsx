@@ -32,12 +32,28 @@ export default function EnquiryPage() {
                 <h4>Email</h4>
                 <p><a href="mailto:sainicahealthcare@gmail.com" style={{ wordBreak: "break-word" }}>sainicahealthcare@gmail.com</a></p>
               </div>
-              <div className="contact-card" style={{ gridColumn: "1 / -1", padding: "24px 20px" }}>
-                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12, marginLeft: "auto", marginRight: "auto" }}>
+              <div className="contact-card" style={{ padding: "24px 20px" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12 }}>
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+                </div>
+                <h4>Office</h4>
+                <p>
+                  <a
+                    href="https://maps.google.com/?q=Radhe+Housing,+Rohit+Circle,+Anupam+Cinema+Road,+Khokhara,+Maninagar+East,+Ahmedabad+380008"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ wordBreak: "break-word", fontSize: "13px", lineHeight: 1.5 }}
+                  >
+                    B/F 14 Radhe Housing, Rohit Circle, Anupam Cinema Road, Khokhara, Mani Nagar East, Ahmedabad - 380008
+                  </a>
+                </p>
+              </div>
+              <div className="contact-card" style={{ padding: "24px 20px" }}>
+                <div className="cc-icon" style={{ width: 48, height: 48, marginBottom: 12 }}>
                   <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 4 5.4 4 8.5s-1.4 6.1-4 8.5c-2.6-2.4-4-5.4-4-8.5s1.4-6.1 4-8.5z"/></svg>
                 </div>
                 <h4>Website</h4>
-                <p><a href="#" style={{ wordBreak: "break-word" }}>www.sainicahealthcare.com</a></p>
+                <p><a href="https://www.sainicahealthcare.com" target="_blank" rel="noopener noreferrer" style={{ wordBreak: "break-word" }}>www.sainicahealthcare.com</a></p>
               </div>
             </div>
           </div>

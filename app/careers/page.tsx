@@ -67,7 +67,7 @@ export default function CareersPage() {
           {[
             { title: "Medical Representative — Gastro Division", location: "Multiple Locations, India" },
             { title: "Area Sales Manager", location: "North India" },
-            { title: "Quality Control Analyst", location: "Pharma City, India" },
+            { title: "Quality Control Analyst", location: "Khokhara, Ahmedabad" },
           ].map((j, i) => (
             <div key={i} className="job-pill">
               <div>

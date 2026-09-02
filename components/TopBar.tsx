@@ -12,7 +12,14 @@ export default function TopBar() {
         </div>
         <div className="tb-item">
           <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
-          Pharma City, India
+          <a
+            href="https://maps.google.com/?q=Radhe+Housing,+Rohit+Circle,+Anupam+Cinema+Road,+Khokhara,+Maninagar+East,+Ahmedabad+380008"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="B/F 14 Radhe Housing, Rohit Circle, Anupam Cinema Road, Khokhara, Mani Nagar East, Ahmedabad 380008"
+          >
+            Khokhara, Ahmedabad
+          </a>
         </div>
       </div>
     </div>
