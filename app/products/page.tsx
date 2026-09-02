@@ -13,16 +13,15 @@ const categories = [
 ];
 
 const products = [
-  { slug: "alark-p", name: "ALARK-P", desc: "Aceclofenac 100 mg + Paracetamol 325 mg", img: "/img/maxirise-gold.svg" },
-  { slug: "detox-500", name: "DETOX 500", desc: "Cholecalciferol 60,000 IU (Vitamin D3) Capsules", img: "/img/esolark-dsr.svg" },
-  { slug: "detox-d3", name: "DETOX D3", desc: "Cholecalciferol 60000 IU Chewable Tablet", img: "/img/detox-d3.svg" },
-  { slug: "esolark-dsr", name: "ESOLARK-DSR", desc: "Esomeprazole 40mg EC+ Domperidone 10mg (IR) + Domperidone 20mg (SR)", img: "/img/esolark-dsr.svg" },
-  { slug: "evabite-lc", name: "EVABITE LC", desc: "Levocetirizine Dihydrochloride 5 mg + Montelukast Sodium 10 mg", img: "/img/maxirise-gold.svg" },
-  { slug: "panbite-40", name: "PANBITE 40", desc: "Pantoprazole 40 mg (Enteric Coated)", img: "/img/esolark-dsr.svg" },
-  { slug: "rifabite-400", name: "RIFABITE 400", desc: "Rifaximin 400 mg", img: "/img/maxirise-gold.svg" },
-  { slug: "hemtor", name: "HEMTOR", desc: "Iron, Folic Acid & Zinc Suspension", img: "/img/hemtor.svg" },
-  { slug: "pirara-plus", name: "PIRARA PLUS", desc: "Paracetamol 500 mg + Chlorpheniramine Maleate 2 mg", img: "/img/esolark-dsr.svg" },
-  { slug: "maxirise-gold", name: "MAXIRISE GOLD", desc: "Multivitamin, Multimineral with Antioxidant Capsules", img: "/img/maxirise-gold.svg" },
+  { slug: "esolark-dsr", name: "ESOLARK DSR", desc: "Esomeprazole 40mg (EC) & Domperidone 10mg (IR), Domperidone 20mg (SR) Capsules", img: "/products/08_ESOLARK-DSR.png" },
+  { slug: "maxirise-gold", name: "MAXIRISE GOLD", desc: "Methylcobalamin, Alpha Lipoic Acid, Folic Acid, Pyridoxine HCl & Vitamin D3 Tablets", img: "/products/07_MAXIRISE-GOLD.png" },
+  { slug: "hemtor", name: "HEMOTOR", desc: "Ferrous Ascorbate & Folic Acid Tablets IP", img: "/products/03_HEMOTOR.png" },
+  { slug: "detox-d3", name: "DETOX D3", desc: "Cholecalciferol Softgel Capsules USP 60,000 IU", img: "/products/09_DETOX-D3.png" },
+  { slug: "alark-p", name: "ALARK-P", desc: "Aceclofenac 100 mg & Paracetamol 325 mg Tablets", img: "/products/01_ALARK-P.png" },
+  { slug: "detox-500", name: "DETOX 500", desc: "Calcium & Vitamin D3 Tablets IP", img: "/products/02_DETOX-500.png" },
+  { slug: "evabite-lc", name: "EVABITE LC", desc: "Vitamin E Acetate & Levocarnitine Tablets", img: "/products/04_EVABITE-LC.png" },
+  { slug: "rifabite-400", name: "RIFABITE 400", desc: "Rifaximin Tablets 400 mg", img: "/products/05_RIFABITE-400.png" },
+  { slug: "prelark-m", name: "PRELARK-M", desc: "Pregabalin & Methylcobalamin Capsules IP", img: "/products/06_PRELARK-M.png" },
 ];
 
 export default function ProductsPage() {

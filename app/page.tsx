@@ -107,9 +107,9 @@ export default function Home() {
             <Link href="/products/esolark-dsr" className="btn btn-outline-navy mt-32">Explore Product</Link>
           </div>
           <div className="split-media">
-            <div className="frame">
+            <div className="frame" style={{ background: "#fff", padding: "24px", display: "flex", alignItems: "center", justifyContent: "center", width: "100%" }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Esolark DSR digestive relief" style={{ width: "100%", height: "100%", objectFit: "cover", aspectRatio: "4/3" }} />
+              <img src="/products/08_ESOLARK-DSR.png" alt="ESOLARK DSR Product Packaging" style={{ width: "100%", maxHeight: 320, objectFit: "contain" }} />
             </div>
           </div>
         </div>
