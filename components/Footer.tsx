@@ -32,8 +32,10 @@ export default function Footer() {
         {/* Footer Grid */}
         <div className="footer-grid">
           <div className="footer-about">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="flogo" src="/Logo.png" alt="Sainica Healthcare" style={{ height: "auto", width: "200px", maxHeight: "60px", objectFit: "contain", marginBottom: "20px" }} />
+            <Link href="/" style={{ display: "inline-block", background: "#ffffff", padding: "6px 14px", borderRadius: "8px", marginBottom: "18px" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/Logo.png" alt="Sainica Healthcare" style={{ height: "36px", width: "auto", objectFit: "contain", display: "block" }} />
+            </Link>
             <p>Preserving Wellness Across India. Sainica Healthcare is a professionally managed pharmaceutical company dedicated to improving lives through quality healthcare solutions.</p>
             <div className="social-row">
               <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M14 9h2.5V6h-2.7C11.5 6 10 7.4 10 9.9V12H8v3h2v6h3v-6h2.4l.6-3H13v-1.7c0-.8.2-1.3 1-1.3z" fill="currentColor" stroke="none"/></svg></a>
@@ -62,8 +64,31 @@ export default function Footer() {
             <ul className="footer-contact">
               <li><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#F15A22" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 6.5l8 6.5 8-6.5"/></svg> <a href="mailto:sainicahealthcare@gmail.com">sainicahealthcare@gmail.com</a></li>
               <li><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#F15A22" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3.5h3l1.5 4-2 1.5a13 13 0 0 0 6.5 6.5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2C10.8 20 4 13.2 4 5.7A2 2 0 0 1 6 3.5z"/></svg> <a href="tel:+917906605626">+91 79066 05626</a></li>
-              <li><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#F15A22" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg> 125, Healthcare Avenue, Pharma City, India - 000000</li>
+              <li>
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#F15A22" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>
+                <a
+                  href="https://maps.google.com/?q=Radhe+Housing,+Rohit+Circle,+Anupam+Cinema+Road,+Khokhara,+Maninagar+East,+Ahmedabad+380008"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", textDecoration: "none" }}
+                >
+                  B/F 14 Radhe Housing, Rohit Circle, Anupam Cinema Road, Khokhara, Mani Nagar East, Ahmedabad - 380008
+                </a>
+              </li>
             </ul>
+            {/* Embedded Mini Google Map */}
+            <div style={{ marginTop: "14px", borderRadius: "10px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.18)", height: "135px", width: "100%" }}>
+              <iframe
+                title="Sainica Healthcare Location Google Map"
+                src="https://maps.google.com/maps?q=Radhe+Housing,+Rohit+Circle,+Anupam+Cinema+Road,+Khokhara,+Maninagar+East,+Ahmedabad+380008&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, display: "block" }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
           </div>
         </div>
 
