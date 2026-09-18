@@ -1,30 +1,11 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import SplashScreen from "@/components/SplashScreen";
 import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function Home() {
-  const [showSplash, setShowSplash] = useState(true);
-
-  useEffect(() => {
-    if (sessionStorage.getItem("sainica-splash-seen")) {
-      setShowSplash(false);
-    }
-  }, []);
-
-  const handleSplashComplete = () => {
-    setShowSplash(false);
-    sessionStorage.setItem("sainica-splash-seen", "true");
-  };
-
   return (
     <>
-      {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
-
       <TopBar />
       <Navbar />
 
@@ -54,9 +35,9 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="hero-art frame">
+          <div className="hero-art frame" style={{ background: "#fff", padding: "24px", display: "flex", alignItems: "center", justifyContent: "center", width: "100%" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Premium Esolark DSR Capsules" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+            <img src="/img/hero-capsules.jpg" alt="Premium Esolark DSR Capsules" style={{ width: "100%", maxHeight: 380, objectFit: "contain" }} />
           </div>
         </div>
       </section>
