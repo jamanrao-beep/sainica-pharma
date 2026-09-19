@@ -5,11 +5,13 @@ import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+import Link from "next/link";
+
 const monographs = [
-  { name: "ESOLARK DSR — Product Monograph", type: "PDF Document" },
-  { name: "MAXIRISE GOLD — Product Monograph", type: "PDF Document" },
-  { name: "HEMTOR — Product Monograph", type: "PDF Document" },
-  { name: "DETOX D3 — Product Monograph", type: "PDF Document" },
+  { name: "ESOLARK DSR — Product Monograph", type: "PDF Document", slug: "esolark-dsr" },
+  { name: "MAXIRISE GOLD — Product Monograph", type: "PDF Document", slug: "maxirise-gold" },
+  { name: "HEMTOR — Product Monograph", type: "PDF Document", slug: "hemtor" },
+  { name: "DETOX D3 — Product Monograph", type: "PDF Document", slug: "detox-d3" },
 ];
 
 const tabs = ["Product Monographs", "Health Articles", "Company News"];
@@ -55,10 +57,10 @@ export default function ResourcesPage() {
                     <div className="rtype">{m.type}</div>
                   </div>
                 </div>
-                <a href="#" className="dl-btn">
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v12M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-                  Download
-                </a>
+                <Link href={`/products/${m.slug}`} className="dl-btn">
+                  View Details
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </Link>
               </div>
             ))}
             {activeTab === 1 && <p className="lede">Health articles and medical insights coming soon. Stay tuned for expert content on gastroenterology, cardiology and general medicine.</p>}

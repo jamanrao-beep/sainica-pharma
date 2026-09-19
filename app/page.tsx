@@ -76,6 +76,34 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ── About SAINICA Healthcare Overview ── */}
+      <section className="section" style={{ background: "#fff", borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}>
+        <div className="container split">
+          <div>
+            <div className="eyebrow">About SAINICA Healthcare</div>
+            <h2 className="h-lg">Quality. Trust. Healthcare.</h2>
+            <p className="lede mt-16" style={{ fontSize: 17, lineHeight: 1.8, color: "var(--navy-900)", fontWeight: 500 }}>
+              SAINICA Healthcare is a pharmaceutical healthcare company committed to providing quality and reliable healthcare solutions. We aim to build a trusted pharmaceutical brand through a combination of quality products, professional service, ethical business practices and long-term relationships with healthcare professionals and business partners.
+            </p>
+            <p className="mt-16" style={{ fontSize: 15, color: "var(--muted)", lineHeight: 1.7 }}>
+              Our focus is to develop and promote a growing portfolio of pharmaceutical products that address diverse healthcare requirements while maintaining consistent standards of quality and reliability.
+            </p>
+            <div style={{ marginTop: 28, display: "flex", gap: 14 }}>
+              <Link href="/about" className="btn btn-primary">About Our Journey</Link>
+              <Link href="/products" className="btn btn-outline-navy">View All Products</Link>
+            </div>
+          </div>
+          <div className="split-media frame">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+              alt="Sainica Healthcare pharmaceutical research and care" 
+              style={{ width: "100%", height: "100%", objectFit: "cover" }} 
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ── About Esolark DSR ── */}
       <section className="section">
         <div className="container split">
